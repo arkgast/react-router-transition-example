@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  color: #020202;
 }
 
 h1 {
@@ -7,11 +8,24 @@ h1 {
 }
 
 a {
-  text-align: center;
   padding: 1em;
+  text-align: center;
   text-decoration: none;
 }
 
 .nav {
   text-align: center;
+}
+
+.pages > div {
+  position: absolute;
+  width: 100%;
+}
+
+.pages div p {
+  width: 80%;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 5px;
+  color: #fff;
 }

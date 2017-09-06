@@ -10,8 +10,12 @@ import Home from './scenes/Home'
 export default () => (
   <Router>
     <App>
-      <Route exact path='/' component={Home} />
-      <Route path='/about' component={About} />
+      <Route exact path='/' children={({ ...props }) => {
+        return <Home {...props} />
+      }} />
+      <Route path='/about' children={({ ...props }) => {
+        return <About {...props} />
+      }} />
     </App>
   </Router>
 )
