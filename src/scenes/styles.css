@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.nav {
+  text-align: center;
+}
