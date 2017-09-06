@@ -1,0 +1,28 @@
+{
+  "name": "react-router-transition-example",
+  "version": "1.0.0",
+  "description": "Animated Transitions",
+  "main": "index.js",
+  "repository": "git@github.com:arkgast/react-router-transition-example.git",
+  "author": "Arnold Gandarillas Castillo <arkgast@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "next"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "standard": "^10.0.3",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
